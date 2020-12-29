@@ -16,8 +16,8 @@ RUN pip install -r /opt/broadlink-mqtt/requirements.txt
 
 # add user mqttwarn to image
 RUN groupadd -r broadlink && useradd -r -g broadlink broadlink
-RUN chown -R broadlink /opt/broadlink-mqtt
-RUN chown -R broadlink /var/log/broadlink
+RUN chown -R broadlink:broadlink /opt/broadlink-mqtt
+RUN chown -R broadlink:broadlink /var/log/broadlink
 #RUN chown -R broadlink /home/broadlink
 
 # process run as mqttwarn user
