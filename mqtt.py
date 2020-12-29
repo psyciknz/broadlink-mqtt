@@ -86,7 +86,7 @@ logger.addHandler(log_handler)
 logging.info("logging complete")
 logging.debug("logging complete")
 
-print LOG_FILE
+print (LOG_FILE)
 #logging.basicConfig(filename=LOG_FILE, format=LOG_FORMAT, level=LOG_LEVEL)
 
 
