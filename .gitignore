@@ -1,3 +1,4 @@
 mqtt-mine.conf
 *.log
-mqtt-mine.conf
+mqtt-mine.confbuild.sh
+build.config
